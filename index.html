@@ -1,0 +1,366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./main.css" media="screen" />
+    <title>Bootstrap example</title>
+</head>
+
+<body>
+    <div class="row switch-back">
+    </div>
+    <div class="row">
+        <div class="row" style="padding-top: 5vh; padding-left: 5vw; width: 100%;">
+            <div class="col-1"><img src="./img/主視覺.png" style="height: 80vh; z-index: 1; margin-left: -5vw;" /></div>
+            <div class="col-7" style=" z-index: 99;">
+
+                <!-- <img src="./img/2021主視覺標題.svg" style="width: 60%; margin-bottom: 4vh; z-index: 99;" /> -->
+                <!-- <img src="./img/2021主視覺標語.svg" style="width: 100%; z-index: 99; margin-top: 24px;" /> -->
+            </div>
+            <div class="col-4" style="height: 20vh; z-index: 99;">
+                <img src="./img/2021主視覺日期.svg" style="width: 60%; height: 100%; margin-top: 3%;" />
+                <img src="./img/logo.png" style="width: 50%; z-index: 99; position: absolute; right: 25%;" />
+            </div>
+        </div>
+        <div style="height: 100vh; width: 98vw; position: fixed; top: 0; z-index: 10;">
+            <img src="./img/switchlite2.png" style="width: 98vw;">
+        </div>
+        <div style="width: 100vh; height: 60vh; text-align: right; padding-top: 10vh; z-index: 99; right: 15vw; bottom: 0; position: absolute;">
+            <img src="./img/標語.png" style="width: 60vw;" />
+            <!-- <img src="./img/資產 2.png" style="width: 40vw; right: 0; bottom: 0; position: relative;" /> -->
+        </div>
+    </div>
+    <div class="row background">
+    </div>
+    <div class="row" style="padding: 0; margin: -100vh 0 0 0;">
+        <div class="col-1" style="padding: 0; margin: 0;">
+        </div>
+        <div class="col-10" style="margin: 10vh 0 10vh 0; padding: 0; z-index: 999;">
+            <!-- <div class="row" style="padding-top: 20vh; padding-left: 5vw;">
+                <div class="col-7">
+                    <img src="./img/2021主視覺標題.svg" style="width: 100%; margin-bottom: 4vh;" />
+                    <img src="./img/2021主視覺標語.svg" style="width: 80%;" />
+                </div>
+                <div class="col-4">
+                    <img src="./img/2021主視覺日期.svg" style="width: 90%; height: 100%;" />
+                </div>
+            </div> -->
+            <!-- path start -->
+            <div class="path-back">
+                <div style="width: 20vw; position: absolute; left: 22%; top: -20%; ">
+                    <button type="button" class="btn video-btn" data-toggle="modal" data-src="https://www.youtube.com/watch?v=gPpZJlE0Ca8" data-target="#myModal" onclick="showDiv()">
+                        <img src="./img/影片1.png " style="width: 150%; cursor: pointer; " />
+                      </button>
+                </div>
+                <div style="width: 20vw; position: absolute; right: 15%; top: 8%; ">
+                    <button type="button" class="btn video-btn" data-toggle="modal" data-src="http://pqdd.sinica.edu.tw/doc/28276025" data-target="#myModal" onclick="showDiv()">
+                        <img src="./img/影片2.png " style="width: 150%; cursor: pointer; " />
+                      </button>
+                </div>
+                <div style="padding: 0 10vw 5vh 10vw; margin: 0; font-weight: bold; text-align: center; position: absolute; left: -5%; top: 20%; ">
+                    <div style="text-align: center; font-size: 2.5em; margin-top: 8vh; ">
+                        <p>
+                            活動說明
+                        </p>
+                    </div>
+                    <p style="font-size: 1.2em; ">
+                        — 只要看影片回答題目，就有機會拿大獎！ —
+                    </p>
+                    <div style="text-align: left; padding-left: 10vw;">
+
+                        <p style="font-size: 1.2em; ">
+                            Step1. 點選觀看上方DDC數位化論文典藏聯盟相關影片
+                        </p>
+                        <p style="font-size: 1.2em; ">
+                            Step2. 回答1題影片相關問題及2題DDC數位化論文典藏聯盟資料庫題目
+                        </p>
+                        <p style="font-size: 1.2em; ">
+                            Step3. 至我要參加區塊完整填寫您的個人基本資訊，並按下送出即可獲得抽獎機會！
+                        </p>
+                    </div>
+                </div>
+                <div style="width: 20vw; position: absolute; right: 12%; top: 45%; ">
+                    <button type="button" class="btn video-btn" data-toggle="modal" data-src="http://pqdd.sinica.edu.tw/doc/11005585" data-target="#myModal" onclick="showDiv()">
+                        <img src="./img/影片3.png " style="width: 150%; cursor: pointer; " />
+                      </button>
+                </div>
+                <div style="width: 20vw; position: absolute; left: 35%; top: 50%;">
+                    <button type="button" class="btn video-btn" data-toggle="modal" data-src="http://pqdd.sinica.edu.tw/doc/10826560" data-target="#myModal" onclick="showDiv()">
+                        <img src="./img/影片4.png" style="width: 150%; cursor: pointer; " />
+                      </button>
+                </div>
+            </div>
+            <!-- path end -->
+
+            <!-- Q&A start -->
+            <div class="row " id="question" style="padding: 0; margin: 10vh 0 0 0; ">
+                <div class="col-1"></div>
+                <div class="col-10" style="background-color: rgba(139, 184, 173, 0.699); border-radius: 20px;">
+                    <button class="qa-btn active">DDC是啥?能吃嗎?</button>
+                    <!-- <button class="qa-btn">第二個標題</button>
+                    <button class="qa-btn">學位論文係蝦米?</button>
+                    <button class="qa-btn">DDC大解密</button> -->
+                    <div style="margin-top: 8vh; padding-left: 5vw">
+                        <p class="question">1. 請問影片中提到PQDT A&I是由哪個單位採購給全國大專校院使用的？</p>
+                        <div class="container">
+                            <fieldset style="font-size: 24px;">
+                                <input type="radio" name="plan" id="" value="" class="radio" />
+                                <span for="">中研院</span>
+                                <br>
+                                <input type="radio" name="plan" id="" value="" class="radio" />
+                                <span for="">國科會</span>
+                                <br>
+                                <input type="radio" name="plan" id="" value="" class="radio" />
+                                <span for="">教育部</span>
+                                <br>
+                            </fieldset>
+                        </div>
+                    </div>
+                    <div style="margin-top: 8vh; padding-left: 5vw">
+                        <p class="question">2. 你知道最新上架的論文在哪裡嗎？請至DDC數位化論文典藏聯盟資料庫 首頁找出新進論文，並輸入一篇論文名稱在答題框中。</p>
+                        <input></input>
+                    </div>
+                    <div style="margin-top: 8vh; padding-left: 5vw">
+                        <p class="question">3. SDGs是聯合國於2015年所發佈的永續發展目標，影響力遍及國內外高等教育，研究人員對於此議題更是關心，DDC數位化論文典藏聯盟也收錄多篇與SDGs相關的論文，請問以下哪篇有關SDGs的論文作者是Huang, Ying-Syuan (Elaine)呢？</p>
+                        <a class="btn-group" role="group" href="http://pqdd.sinica.edu.tw/doc/28254388" target="_blank">
+                            <button type="button " class="btn btn-secondary ">選項 A</button>
+                        </a>
+                        <a class="btn-group " role="group " href="http://pqdd.sinica.edu.tw/doc/28276025" target="_blank">
+                            <button type="button " class="btn btn-secondary ">選項 B</button>
+                        </a>
+                        <a class="btn-group " role="group " href="http://pqdd.sinica.edu.tw/doc/11005585" target="_blank">
+                            <button type="button " class="btn btn-secondary ">選項 C</button>
+                        </a>
+                        <a class="btn-group " role="group " href="http://pqdd.sinica.edu.tw/doc/10826560" target="_blank">
+                            <button type="button " class="btn btn-secondary ">選項 D</button>
+                        </a>
+                    </div>
+                    <hr style="margin-top: 10vh; width: 90%; color: white; ">
+                    <!-- form start -->
+                    <form id="survey-form " class="row " style="padding-left: 5vw;">
+                        <div class="col col-6 ">
+                            <div class="container " style="margin-bottom: 2vh; ">
+                                <label for="name " id="name-label ">姓名</label>
+                                <input type="text " name="name " id="name " placeholder="請輸入姓名 " required />
+                            </div>
+
+                            <div class="container " style="margin-bottom: 2vh; ">
+                                <label for="email " id="email-label ">EMAIL</label>
+                                <input type="email " name="email " id="email " placeholder="請輸入email " required />
+                            </div>
+
+                            <div class="container " style="margin-bottom: 2vh; ">
+                                <label for="number " id="number-label ">手機</label>
+                                <input type="number " name="number " id="number " placeholder="請輸入手機號碼 " required />
+                            </div>
+                        </div>
+                        <div class="col col-6 ">
+                            <div class="container " style="margin: 5vh 0 2vh 0; ">
+                                <label for="dropdown ">選擇身分</label>
+                                <select id="dropdown " name="work ">
+                                    <option value="a ">教職員</option>
+                                    <option value="b ">博士生</option>
+                                    <option value="c ">碩士生</option>
+                                    <option value="d ">大學生</option>
+                                    <option value="e ">一般讀者</option>
+                                </select>
+                            </div>
+
+                            <div class="container" style="margin-bottom: 10vh;">
+                                <label for="name " id="name-label ">單位/系所</label>
+                                <input type="text " name="name " id="name " placeholder="請輸入單位/系所 " required />
+                                <button id="button " class="submit-btn ">送出</button>
+                            </div>
+                        </div>
+                        <div id="container ">
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <!-- Q&A end -->
+
+            <!-- info start -->
+            <div class="row " style="padding: 0; margin: 0; ">
+                <div class="col-1 "></div>
+                <div class="col-10 " style="padding: 5vh 0 5vh 0; margin: 10vh 0 0 0; font-weight: bold; text-align: center; background-color: rgb(197, 226, 214); border-radius: 20px; ">
+                    <div class="row " style="margin-top: 2vh; padding: 5vh 0; ">
+                        <div class="col-1 " style="padding: 0; margin: 0; ">
+                        </div>
+                        <div class="col-10 ">
+                            <div class="row ">
+                                <div class="col-4 ">
+                                    <img src="./img/2021主視覺頭獎.png " style="width: 90%; " />
+                                    <p style="margin-top: 15px; font-size: 24px; color: rgb(23, 105, 87); font-weight: light; ">[名額：1名]</p>
+                                </div>
+                                <div class="col-4 ">
+                                    <img src="./img/2021主視覺人氣獎.png " style="width: 90%; " />
+                                    <p style="margin-top: 15px; font-size: 24px; color: rgb(23, 105, 87); font-weight: light; ">[名額：1名]</p>
+                                </div>
+                                <div class="col-4 ">
+                                    <img src="./img/2021主視覺參加獎.png " style="width: 90%; " />
+                                    <p style="margin-top: 15px; font-size: 24px; color: rgb(23, 105, 87); font-weight: light; ">[名額：20名]</p>
+                                </div>
+                            </div>
+                            <div style="text-align: left; margin-left: 5vw; margin-top: 10vh;">
+                                <p> ‧ 得獎名單將於 2021/12/08(三) 公佈於漢珍官網，漢珍數位圖書公司將另以E-mail通知。</p>
+                                <p> ‧ 得獎者請於 2021/12/17(五) 前回覆得獎通知E-mail，逾期未回覆者，則取消得獎資格。</p>
+                                <p> ‧ 活動聯絡人：漢珍數位圖書 黃小姐02-27361058#269( <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=jessicahuang@tbmc.com.tw" target="_blank">jessicahuang@tbmc.com.tw</a> )
+                                </p>
+                                <p>‧ 人氣獎：分享活動按讚次數最多者，可加碼獨得三千元！</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <p style="font-size: 1.5em; ">
+                        頭獎 任天堂Switch Lite 1名
+                    </p>
+                    <p style="font-size: 1.5em; ">
+                        參加獎 7-11禮券100元20名
+                    </p>
+                    <p style="font-size: 1.5em; ">
+                        最佳人氣獎 7-11禮券3,000元1名
+                    </p> -->
+                </div>
+            </div>
+            <div class="col-12 " style="padding: 0 12vw 10vh 12vw; margin: 5vh 0 0 0; font-size: 1.2em; font-weight: bold; ">
+                <div style="text-align: center; font-size: 2.08em; ">
+                    <p>
+                        注意事項
+                    </p>
+                </div>
+                <p>
+                    參加本活動前，請務必詳閱本活動辦法內容，當您透過本活動網站輸入個人資料參與活動時表示已同意
+                </p>
+                <button class="btn btn-lg " data-toggle="modal" data-target="#modalinfo" data-target="#modalinfo" style="color: rgb(184, 35, 35); text-decoration: none; padding: 0; margin: 0 0 12px 0; ">
+                    蒐集個人資料告知事項與同意書
+                </button>
+                <p>
+                    根據中華民國稅法相關規定，獎項價值超過新台幣 1,000 元者，須列入個人年度綜合所得稅申報。將依稅法規定於年度開立扣繳憑單予活動得獎者，以供得獎者申報個人綜合所得稅(外國人中獎者，無論金額多寡，皆需預繳機會中獎所得稅，獎品金額×20%）。中獎人需配合填寫領據，並附上身分證影本。
+                </p>
+                <p>
+                    本公司不負責活動獎項之後續維修或保固服務。獎品品項如遇停止銷售之故，主辦單位有權提供同等價值之贈品替代。
+                </p>
+                <p>
+                    得獎名單以本活動網頁公告為主，絕不會以任何名義請得獎人主動匯款，請留意不肖人士詐騙，若接獲得獎通知而有所疑惑者，請來信活動聯絡人：
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=info@tbmc.com.tw" target="_blank">info@tbmc.com.tw</a> 。
+                </p>
+                <p>
+                    參加者於參加本活動之同時，即視為同意接受本活動規範，若本活動因不可抗力之特殊原因無法執行時，本公司有權決定取消、終止、修改或暫停本活動及相關獎項。
+                </p>
+                <p>
+                    凡參賽即視同認可並接受本活動之各項規定。如有未盡事宜，主辦單位得隨時解釋、修正之。
+                </p>
+                <p>
+                    本活動保留辦法修正及贈品更換之權利，如有內容或注意事項的變更， 將公布於活動網頁，恕不另行通知。
+                </p>
+            </div>
+
+
+            <!-- info end -->
+            <div style="text-align: center; margin-top: 8vh; ">
+                <a href="https://www.tbmc.com.tw/zh-tw "><img src="./img/HJLogo.png " style="width: 200px; " /></a>
+                <p style="margin: 2vh 0 8vh 0; ">漢珍數位圖書 版權所有 Copyright © 2021 All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <!-- video modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9 ">
+                            <iframe class="embed-responsive-item" src="" id="video" allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- modal -->
+        <div class="modal fade modalinfo" id="modalinfo" tabindex="-1 " role="dialog " aria-labelledby="myLargeModalLabel " aria-hidden="true ">
+            <div class="modal-dialog modal-lg ">
+
+                <div class="modal-content ">
+                    <div class="modal-header ">
+                        <h5 class="modal-title ">蒐集個人資料告知事項與同意書</h5>
+                        <button type="button " class="close " data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true ">&times;</span>
+                        </button>
+                    </div>
+                    <br>
+                    <ul style="padding: 0 8vw; text-align: justify; margin: 5vh; ">
+                        <li>
+                            蒐集個人資料公司：漢珍數位圖書股份有限公司 （以下簡稱本公司）
+                        </li>
+                        <li>
+                            蒐集之目的：作為參與「認真看影片，填問卷抽大獎！ 有獎徵答活動」及後續相關程序之聯繫使用。
+                        </li>
+                        <li>
+                            個人資料之類別：姓名、地址、電子郵件及電話於參加活動時所提供之個人資料。
+                        </li>
+                        <li>
+                            個人資料利用之期間：自 台端參加本活動之日起至抽獎活動結束，且獎項寄送後6個月止。
+                        </li>
+                        <li>
+                            個人資料利用之地區：本公司營運範圍，僅限於台灣、金門、澎湖、馬祖、港澳、美國等地區利用。
+                        </li>
+                        <li>
+                            個人資料利用之對象及方式：由本公司該業務承辦人員於辦理該活動之特定目的必要範圍內，依通常作業所必要之方式利用此個人資料。本活動網站公開之資料，公眾將可透過網際網路瀏覽參與活動所公開之資料或中獎資訊。本公司對於中獎資訊之公布，將採取隱匿部分個人資訊之方式處理，以確保個人資料之安全。
+                        </li>
+                        <li>
+                            依個人資料保護法第三條規定得行使之權利及方式：台端得向本公司書面或電子郵件提出申請，以查詢、閱覽、製給複製本；或補充／更正、請求停止蒐集、處理、利用或刪除個人資料 內容之一部或全部。 （註：參加人申請查詢、閱覽、製給複製本時，將酌收必要成本費用。）
+                        </li>
+                        <li>
+                            台端填寫個人資料後，以任何方式遞送至本公司收執時，均視為 台端已同意其所填寫之個人資料，供本公司於辦理本活動之特定目的必要範圍內處理及利用；此外，台端可自行決定是否填寫相關之個人資料欄位，若 台端選擇不願填寫，將無法參加本次活動所提供之相關服務或遭取消中獎資格。
+                        </li>
+                        <li>
+                            個人資料安全措施：本公司將依據相關法令之規定建構完善措施，保障台端個人資料之安全。
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js " integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo " crossorigin="anonymous "></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js " integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 " crossorigin="anonymous "></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js " integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM " crossorigin="anonymous "></script>
+</body>
+
+</html>
+
+<script>
+    function showDiv() {
+        document.getElementById('question').style.display = "flex";
+    }
+
+    $(document).ready(function() {
+        // Gets the video src from the data-src on each button
+        var $videoSrc;
+        $('.video-btn').click(function() {
+            $videoSrc = $(this).data("src");
+        });
+        console.log($videoSrc);
+        // when the modal is opened autoplay it  
+        $('#myModal').on('shown.bs.modal', function(e) {
+
+                // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+                $("#video").attr('src', $videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0");
+            })
+            // stop playing the youtube video when I close the modal
+        $('#myModal').on('hide.bs.modal', function(e) {
+                // a poor man's stop video
+                $("#video").attr('src', $videoSrc);
+            })
+            // document ready  
+    });
+</script>
